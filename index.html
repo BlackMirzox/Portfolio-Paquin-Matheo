@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - PAQUIN Mathéo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#accueil" class="logo">PAQUIN Mathéo</a>
+            <nav class="navbar">
+                <button class="nav-toggle" aria-label="ouvrir le menu de navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#a-propos">À Propos</a></li>
+                    <li><a href="#stage">Stage</a></li>
+                    <li><a href="#realisations-pro">Réalisations Pro</a></li>
+                    <li><a href="#synthese-competences">Compétences</a></li>
+                    <li><a href="#veille">Veille</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="accueil" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <img src="img/image.webp" alt="Photo de Profil" class="profile-pic">
+                    <h2>Salut, je m'appelle Mathéo PAQUIN !</h2>
+                    <h1>Bienvenue dans mon portfolio 🙂​</h1>
+                    <p class="tagline">Étudiant de 2ème année au Lycée Gustave Eiffel à Bordeaux</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/math%C3%A9o-paquin-a0147034a/" target="_blank" aria-label="LinkedIn"><img src="img/Linkedin.webp" alt="LinkedIn"></a>
+                    </div>
+                    <a href="#realisations-pro" class="button primary-button">Découvrir mes Réalisations</a>
+                </div>
+            </div>
+        </section>
+
+        <hr style="border: 0; height: 1px; background: #ddd; max-width: 1200px; margin: 0 auto;">
+
+        <section id="a-propos" class="about-section section-padding">
+            <div class="container">
+                <h2>À Propos de Moi</h2>
+                <div class="about-content">
+                    <p>Bienvenue sur mon portfolio ! Je suis Mathéo PAQUIN, actuellement étudiant en 2ème année de BTS SIO, option SISR (Solutions d'Infrastructure, Systèmes Réseaux), au Lycée Gustave Eiffel à Bordeaux.</p>
+                    <p>Je suis passionné par la mise en place de services et la protection des infrastructures informatiques, notamment les systèmes et réseaux. Chaque projet est pour moi une opportunité d'apprendre, d'innover et de dépasser les attentes.</p>
+                    <p>En dehors de mes études, je travaille en tant que Vendeur à Marie Blachère à Pessac, une expérience qui enrichit mes compétences en communication et ma capacité d'adaptation, tout en stimulant ma créativité.</p>
+                    <a href="img/PAQUIN Mathéo.pdf" target="_blank" class="button secondary-button">Télécharger mon CV</a>
+                </div>
+            </div>
+        </section>
+
+        <hr style="border: 0; height: 1px; background: #ddd; max-width: 1200px; margin: 0 auto;">
+
+        <section id="stage" class="stage-section section-padding">
+            <div class="container">
+                <h2>Mon Stage</h2>
+                <div class="stage-content">
+                    <p style="text-align: center; margin-bottom: 40px;">Cette section est dédiée à la présentation de mes expériences de stage. Vous y trouverez des détails sur les missions réalisées, les compétences acquises et les technologies utilisées.</p>
+                    
+                    <div class="stage-entry">
+                        <h3>Telelec Informatique</h3>
+                        <p class="stage-duration">2 Juin 2025 au 4 Juillet 2025 | 81 Rue de la Morandière 33185 Le Haillan</p>
+                        <ul>
+                            <li>Premier Projet : Mettre en place un système de supervision réseau intelligent avec alertes proactives</li>
+                            <li>Deuxième Projet : Mise en place d'un Honeypot sur un poste de travail</li>
+                            <li>Troisième Projet : sécuriser un ou plusieurs postes de travail (Windows ou Linux) en appliquant des mesures de durcissement ("hardening"), en réalisant des audits de configuration à l’aide d’outils standards, puis en testant la détection de vulnérabilités avec des outils d’analyse.</li>
+                        </ul>
+                        <p><strong>Technologies/Outils :</strong>
+                            <strong>Zabbix/Nagios/Prometheus + Grafana, intégration email/Slack, scripts d’auto-diagnostic</strong> pour le premier projet.
+                            <br>
+                            <strong>Création d'un honeypot SSH </strong>pour attirer les attaquants, enregistrer leurs tentatives de connexion et capturer les commandes pour le deuxième projet.
+                            <br>
+                            <strong>Mise en place de mesures de durcissement ("hardening")</strong>, audits de configuration et tests de détection de vulnérabilités pour le troisième projet.
+                        </p>
+                    </div>
+
+                    <div class="stage-entry">
+                        <h3>Lycée Saint-Genès</h3>
+                        <p class="stage-duration">13 Janvier 2026 au 13 Mars 2026 | 160 Rue de Saint-Genès 33000 Bordeaux</p>
+                        <ul>
+                            <li>Premier Projet : Déploiement de poste : identifier les ressources numériques en déployant des services et ainsi analyser les objectifs et les modalités d'organisation de projet</li>
+                            <li>Deuxième Projet : Configuration de Veyon : Référencer les services en ligne de l’organisation et mesurer leur visibilité.</li>
+                        </ul>
+                        <p><strong>Technologies/Outils :</strong><br>
+                            <br>
+                            <strong>Microsoft Intunes : </strong>permettant de mettre les noms des ordinateurs ainsi leurs données et les applications pour chaque établissement (Collège, Lycée Général, Lycée des Métiers)
+                            <br><br>
+                            <strong>Installation de Windows avec une clé USB automatisée : </strong> Permettant d'installer le système d'exploitation avec les configurations de Microsoft Intunes qui ont été configurés par le service Informatique de Saint-Genès
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <hr style="border: 0; height: 1px; background: #ddd; max-width: 1200px; margin: 0 auto;">
+
+        <section id="realisations-pro" class="realisations-section section-padding">
+            <div class="container">
+                <h2>Mes Réalisations Professionnelles</h2>
+                <p class="section-description" style="text-align: center; margin-bottom: 30px;">Voici des documents détaillant certaines de mes réalisations techniques et projets spécifiques, classés par année.</p>
+            
+                <div class="years-split-container" style="display: flex; flex-direction: column; gap: 50px;">
+            
+                    <div class="year-column" style="width: 100%;">
+                        <h3 class="year-title">1ère Année</h3>
+                        
+                        <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
+                            
+                            <div style="flex: 1; min-width: 250px;">
+                                <h4 style="text-align: center; color: #007bff; border-bottom: 2px solid #007bff; padding-bottom: 10px; margin-bottom: 20px;">Fiches RP & CR</h4>
+                                <div class="doc-list">
+                                    <div class="doc-item" style="margin-bottom: 20px;">
+                                        <img src="src/Capture d’écran 2026-03-18 111118.png" alt="Aperçu du document Fiche RP" width="100%" style="max-height: 150px; object-fit: cover;">
+                                        <h4><a href="img/Fiche de RP E5_2025 1ère semaine de stage.pdf" target="_blank">Fiche RP - Semaine 1</a></h4>
+                                        <p>Mise en place d'un système de supervision réseau intelligent avec alertes proactives.</p>
+                                    </div>
+                
+                                    <div class="doc-item" style="margin-bottom: 20px;">
+                                        <img src="src/Capture d’écran 2026-03-18 113031.png" alt="Aperçu du document Fiche RP" width="100%" style="max-height: 150px; object-fit: cover;">
+                                        <h4><a href="img/Fiche de RP E5_2025 2ème semaines de stage.pdf" target="_blank">Fiche RP - Semaine 2</a></h4>
+                                        <p>Mise en place d'un Honeypot sur un poste de travail.</p>
+                                    </div>
+
+                                    <div class="doc-item" style="margin-bottom: 20px;">
+                                        <img src="src/Capture d’écran 2026-03-18 115141.png" alt="Aperçu du document Fiche RP" width="100%" style="max-height: 150px; object-fit: cover;">
+                                        <h4><a href="img/Compte rendu du 2.06.25 tableau.pdf" target="_blank">Compte Rendu Semaine 1</a></h4>
+                                        <p>Voici le compte rendu de la première semaine de stage de première année de BTS SIO.</p>
+                                    </div>
+
+                                    <div class="doc-item" style="margin-bottom: 20px;">
+                                        <img src="src/Capture d’écran 2026-03-18 115219.png" alt="Aperçu du document Fiche RP" width="100%" style="max-height: 150px; object-fit: cover;">
+                                        <h4><a href="img/Compte rendu du 13.06.25 tableau.pdf" target="_blank">Compte Rendu Semaine 2</a></h4>
+                                        <p>Voici le compte rendu de la deuxième semaine de stage de première année de BTS SIO.</p>
+                                    </div>
+
+                                    <div class="doc-item" style="margin-bottom: 20px;">
+                                        <img src="src/Capture d’écran 2026-03-18 115254.png" alt="Aperçu du document Fiche RP" width="100%" style="max-height: 150px; object-fit: cover;">
+                                        <h4><a href="img/Compte rendu 16.06.25 et du 23.06.25 tableau.pdf" target="_blank">Compte Rendu Semaine 3</a></h4>
+                                        <p>Voici le compte rendu de la troisième semaine de stage de première année de BTS SIO.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div style="flex: 1; min-width: 250px;">
+                                <h4 style="text-align: center; color: #007bff; border-bottom: 2px solid #007bff; padding-bottom: 10px; margin-bottom: 20px;">Documentations</h4>
+                                <div class="doc-list">
+                                    <div class="doc-item" style="margin-bottom: 20px;">
+                                        <img src="src/Capture d’écran 2026-03-18 114818.png" alt="Aperçu du document Fiche RP" width="100%" style="max-height: 150px; object-fit: cover;">
+                                        <h4><a href="img/Procédure de la mise en place du système de supervision réseau intelligent.pdf" target="_blank">Doc. Supervision Réseau</a></h4>
+                                        <p>Documentation effectuée en stage de première année de BTS SIO sur la supervision.</p>
+                                    </div>
+
+                                    <div class="doc-item" style="margin-bottom: 20px;">
+                                        <img src="src/Capture d’écran 2026-03-18 114735.png" alt="Aperçu du document Fiche RP" width="100%" style="max-height: 150px; object-fit: cover;">
+                                        <h4><a href="img/Compte rendu Honeyport.pdf" target="_blank">Doc. Honeypot</a></h4>
+                                        <p>Documentation effectuée en stage de première année de BTS SIO sur le Honeypot.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="year-column" style="width: 100%;">
+                        <h3 class="year-title">2ème Année</h3>
+                        
+                        <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
+                            
+                            <div style="flex: 1; min-width: 250px;">
+                                <h4 style="text-align: center; color: #007bff; border-bottom: 2px solid #007bff; padding-bottom: 10px; margin-bottom: 20px;">Fiches RP & CR</h4>
+                                <div class="doc-list">
+                                    <div class="doc-item" style="margin-bottom: 20px;">
+                                        <img src="src/Capture d’écran 2026-03-18 105513.png" alt="Aperçu du document Fiche RP" width="100%" style="max-height: 150px; object-fit: cover;">
+                                        <h4><a href="img/Fiche RP n°1.docx.pdf" target="_blank">Fiche RP Déploiement poste de travail avec Automatisation + Veyon</a></h4>
+                                        <p>Déployer des postes de travail + Installation de Veyon avec Clé Publique et privée</p>
+                                    </div>
+                                    <div class="doc-item" style="margin-bottom: 20px;">
+                                        <img src="src/Compte-Rendu-1.png" alt="Aperçu du document Fiche RP" width="100%" style="max-height: 150px; object-fit: cover;">
+                                        <h4><a href="img/Compte Rendu S1.pdf" target="_blank">Compte Rendu n°1</a></h4>
+                                        <p>Compte Rendu 1ère semaine</p>
+                                    </div>
+                                    <div class="doc-item" style="margin-bottom: 20px;">
+                                        <img src="src/Compte-Rendu-2.png" alt="Aperçu du document Fiche RP" width="100%" style="max-height: 150px; object-fit: cover;">
+                                        <h4><a href="img/Compte Rendu S2.pdf" target="_blank">Compte Rendu n°2</a></h4>
+                                        <p>Compte Rendu 2ème semaine</p>
+                                    </div>
+                                       <div class="doc-item" style="margin-bottom: 20px;">
+                                        <img src="src/Compte-Rendu-3.png" alt="Aperçu du document Fiche RP" width="100%" style="max-height: 150px; object-fit: cover;">
+                                        <h4><a href="img/Compte Rendu S3.pdf" target="_blank">Compte Rendu n°3</a></h4>
+                                        <p>Compte Rendu 3ème semaine</p>
+                                    </div>
+                                    <div class="doc-item" style="margin-bottom: 20px;">
+                                        <img src="src/Compte-Rendu-4.png" alt="Aperçu du document Fiche RP" width="100%" style="max-height: 150px; object-fit: cover;">
+                                        <h4><a href="img/Compte Rendu S4.pdf" target="_blank">Compte Rendu n°4</a></h4>
+                                        <p>Compte Rendu 4ème semaine</p>
+                                    </div>
+                                    <div class="doc-item" style="margin-bottom: 20px;">
+                                        <img src="src/Compte-Rendu-5.png" alt="Aperçu du document Fiche RP" width="100%" style="max-height: 150px; object-fit: cover;">
+                                        <h4><a href="img/Compte Rendu S5.pdf" target="_blank">Compte Rendu n°5</a></h4>
+                                        <p>Compte Rendu 5ème semaine</p>
+                                    </div>
+                                    <div class="doc-item" style="margin-bottom: 20px;">
+                                        <img src="src/Compte-Rendu-6.png" alt="Aperçu du document Fiche RP" width="100%" style="max-height: 150px; object-fit: cover;">
+                                        <h4><a href="img/Compte Rendu S6.pdf" target="_blank">Compte Rendu n°6</a></h4>
+                                        <p>Compte Rendu 6ème semaine</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div style="flex: 1; min-width: 250px;">
+                                <h4 style="text-align: center; color: #007bff; border-bottom: 2px solid #007bff; padding-bottom: 10px; margin-bottom: 20px;">Documentations</h4>
+                                <div class="doc-list">
+                                    <div class="doc-item" style="margin-bottom: 20px;">
+                                        <img src="src/Capture d’écran 2026-03-18 110547.png" alt="Aperçu du document sur la documentation" width="100%" style="max-height: 150px; object-fit: cover;">
+                                        <h4><a href="img/Documentation Postes de travail avec automatisation + Veyon ( Master et Configurator ).pdf" target="_blank">Documentation sur l'installation des postes de travails avec automatisation + Veyon</a></h4>
+                                        <p>Voici la documentation que j'ai fait pendant mon deuxième stage en vous détaillant tout ce que j'ai pu faire !!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="year-column" style="width: 100%;">
+                        <h3 class="year-title">AP 1ère et 2ème Année BTS SIO</h3>
+                        
+                        <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
+                            
+                            <div style="flex: 1; min-width: 250px;">
+                                <h4 style="text-align: center; color: #007bff; border-bottom: 2px solid #007bff; padding-bottom: 10px; margin-bottom: 20px;">Fiches RP & CR</h4>
+                                <div class="doc-list">
+                                    <p style="text-align: center; font-style: italic; color: #6c757d; margin-top: 20px;">Aucun document pour le moment.</p>
+                                </div>
+                            </div>
+
+                            <div style="flex: 1; min-width: 250px;">
+                                <h4 style="text-align: center; color: #007bff; border-bottom: 2px solid #007bff; padding-bottom: 10px; margin-bottom: 20px;">Documentations</h4>
+                                <div class="doc-list">
+                                    <div class="doc-item" style="margin-bottom: 20px;">
+                                        <img src="src/Capture d’écran 2026-03-18 113144.png" alt="Aperçu du document sur la documentation" width="100%" style="max-height: 150px; object-fit: cover;">
+                                        <h4><a href="img/AP 3.1 Documentation MUTLAB.pdf" target="_blank">Documentation sur MUTLAB AP3.1</a></h4>
+                                        <p>Documentation sur l'AP 3.1</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <hr style="border: 0; height: 1px; background: #ddd; max-width: 1200px; margin: 0 auto;">
+
+        <section id="synthese-competences" class="synthese-competences-section section-padding">
+            <div class="container">
+                <h2>Synthèse de Compétences</h2>
+                <p class="section-description" style="text-align: center;">Pour une vue détaillée de mes compétences techniques et transversales, veuillez télécharger le document ci-dessous.</p>
+
+                <div class="skills-document-link" class="doc-item" style="text-align: center; margin-top: 30px;">
+                    <h3><a href="img/E5 - TS SISR 2026.pdf" target="_blank">Télécharger ma Synthèse de Compétences sur les AP et sur mes deux stages pour les épreuves BTS SIO</a></h3>
+                    <p>Ce document récapitule l'ensemble de mes compétences acquises lors de ma formation et de mes expériences professionnelles.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr style="border: 0; height: 1px; background: #ddd; max-width: 1200px; margin: 0 auto;">
+
+        <section id="veille" class="veille-section section-padding">
+            <div class="container">
+                <h2>Veille Technologique et Thématique</h2>
+                <p class="section-description" style="text-align: center;">Pour une vue détaillée de ma Veille Technologique, veuillez télécharger le document ci-dessous.</p>
+
+                <div class="skills-document-link" style="text-align: center; margin-top: 30px;">
+                    <h3><a href="img/Veille Informatique PAQUIN Mathéo.pdf" target="_blank">Télécharger ma Veille Informatique de mon stage de 1ère année de BTS SIO</a></h3>
+                    <p>Ce document détaille le projet que j'ai choisi.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Mathéo PAQUIN. Tous droits réservés.</p>
+            <div class="footer-social-links">
+                <a href="https://www.linkedin.com/in/math%C3%A9o-paquin-a0147034a/" target="_blank" aria-label="LinkedIn"><img src="img/Linkedin.webp" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
